@@ -8,7 +8,7 @@ from tensorflow.keras.initializers import RandomNormal
 from tensorflow.keras.layers import Activation
 from tensorflow.keras.callbacks import EarlyStopping
 
-import tensorflow_addons as tfa
+# import tensorflow_addons as tfa
 
 
 def build_model(vocab_size, num_units, dropout, optimizer):
