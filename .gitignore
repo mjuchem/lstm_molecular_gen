@@ -130,3 +130,6 @@ dmypy.json
 tmp/
 logs/
 data/interim/
+
+# vim
+.*.sw?
