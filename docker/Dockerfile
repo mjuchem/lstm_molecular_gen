@@ -69,6 +69,7 @@ RUN . /srv/venv/bin/activate \
       numpy \
       pandas \
       rdkit \
+      tensorboard \
       tensorflow \
       tensorrt
 
