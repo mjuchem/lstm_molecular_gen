@@ -5,8 +5,8 @@ Trains LSTM with a dataset of SMILES molecular sequences, and uses the model to 
 
 
 Part of the code derived from:
-https://github.com/topazape/LSTM_Chem
-https://github.com/mattroconnor/deep_learning_coronavirus_cure
+- https://github.com/topazape/LSTM_Chem
+- https://github.com/mattroconnor/deep_learning_coronavirus_cure
 
 # Running
 
@@ -30,7 +30,7 @@ Run the docker container with `make run` (ensures image is built beforehand) or 
 
 Open the lab's URL on your web browser (default: http://localhost:52019).
 
-Configure Junyper Lab with environment variables:
+Configure Jupyter Lab with environment variables:
 - `NOTEBOOKS_DIR`: notebooks root directory (default: repo root)
 - `LAB_ADDR`: host address to bind the server to (default: `127.0.0.1`)
 - `LAB_PORT`: host port to bind the server to (default: `52019`)
