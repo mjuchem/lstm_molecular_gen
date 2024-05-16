@@ -1,0 +1,14 @@
+deb http://deb.debian.org/debian/ testing main non-free contrib
+#deb-src http://deb.debian.org/debian/ testing main non-free contrib
+
+#deb http://deb.debian.org/debian-debug/ testing-debug main non-free contrib
+#deb-src http://deb.debian.org/debian-debug/ testing-debug main non-free contrib
+
+deb http://deb.debian.org/debian-security/ testing-security main non-free contrib
+#deb-src http://deb.debian.org/debian-security/ testing-security main non-free contrib
+
+deb http://deb.debian.org/debian/ testing-updates main non-free contrib
+#deb-src http://deb.debian.org/debian/ testing-updates main non-free contrib
+
+#deb http://deb.debian.org/debian/ testing-backports main non-free contrib
+#deb-src http://deb.debian.org/debian/ testing-backports main non-free contrib

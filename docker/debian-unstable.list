@@ -1,0 +1,8 @@
+deb http://deb.debian.org/debian/ unstable main non-free contrib
+#deb-src http://deb.debian.org/debian/ unstable main non-free contrib
+
+#deb http://deb.debian.org/debian-debug/ unstable-debug main non-free contrib
+#deb-src http://deb.debian.org/debian-debug/ unstable-debug main non-free contrib
+
+#deb http://deb.debian.org/debian-ports/ unstable main non-free contrib
+#deb-src http://deb.debian.org/debian-ports/ unstable main non-free contrib
