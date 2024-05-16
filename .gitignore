@@ -129,7 +129,6 @@ dmypy.json
 .pyre/
 tmp/
 logs/
-data/interim/
 
 # vim
 .*.sw?
