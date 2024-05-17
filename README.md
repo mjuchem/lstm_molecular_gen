@@ -22,7 +22,8 @@ The notebooks can be run under Jupyter Lab.
 
 # Sandboxed Container
 
-A sandboxed container is provided with the complete environment needed to run the notebooks without installing additional software.
+A sandboxed container is provided with the complete environment needed to run
+the notebooks without installing additional software.
 
 Build the docker image in Linux with `make`, `make build` or `./build.sh`.
 
@@ -43,3 +44,13 @@ make run
 # run the lab on http://127.0.0.2:51776
 make run LAB_ADDR=127.0.0.2 LAB_PORT=51776
 ```
+
+# Running as a local service
+
+The container can be run as a local service that will automatically restart,
+even after the machine is rebooted.
+
+Install/start the service with `make start` or `./run.sh --start`.
+Force restart a running service (or restart it after stopped) with `make restart` or `./run.sh --restart`.
+Stop the service without destroying the container with `make stop` or `./run.sh --stop`.
+Uninstall the service with `make kill` or `./run.sh --kill`.
