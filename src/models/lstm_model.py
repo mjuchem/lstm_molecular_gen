@@ -8,8 +8,6 @@ from tensorflow.keras.initializers import RandomNormal
 from tensorflow.keras.layers import Activation
 from tensorflow.keras.callbacks import EarlyStopping
 
-# import tensorflow_addons as tfa
-
 
 def build_model(vocab_size, num_units, dropout, optimizer):
 
@@ -26,4 +24,4 @@ def build_model(vocab_size, num_units, dropout, optimizer):
 
     model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['mae', 'acc'])
 
-    return model
+    return model, es
